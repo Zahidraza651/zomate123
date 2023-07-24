@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Zomate' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Zomate
+  pod 'TextFieldEffects'
+  pod 'CountryPickerView'
+  pod 'SOTabBar'
+
+end

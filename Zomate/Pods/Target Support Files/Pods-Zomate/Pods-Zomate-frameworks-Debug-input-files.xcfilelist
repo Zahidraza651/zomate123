@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Zomate/Pods-Zomate-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CountryPickerView/CountryPickerView.framework
+${BUILT_PRODUCTS_DIR}/SOTabBar/SOTabBar.framework
+${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework

@@ -1,0 +1,24 @@
+PODS:
+  - CountryPickerView (3.3.0)
+  - SOTabBar (1.1.3)
+  - TextFieldEffects (1.6.0)
+
+DEPENDENCIES:
+  - CountryPickerView
+  - SOTabBar
+  - TextFieldEffects
+
+SPEC REPOS:
+  trunk:
+    - CountryPickerView
+    - SOTabBar
+    - TextFieldEffects
+
+SPEC CHECKSUMS:
+  CountryPickerView: 6322ada32a80b0cd721b0267282a5c24f406f263
+  SOTabBar: 27aea95bd6b39d1be3535c867a2cd3b5adc172e6
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+
+PODFILE CHECKSUM: 5a432d9d82a99e8ad9aac720a157b9376b383a7b
+
+COCOAPODS: 1.12.1
