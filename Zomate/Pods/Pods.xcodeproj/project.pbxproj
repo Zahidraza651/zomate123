@@ -800,23 +800,6 @@
 			};
 			name = Release;
 		};
-		5CBC3475DA7D3B5A713F41F1A632EB94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D733ECAA52ADD8DD20FED6C96721D1EF /* CountryPickerView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
-				IBSC_MODULE = CountryPickerView;
-				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = CountryPickerView_CountryPickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1046,6 +1029,38 @@
 			};
 			name = Debug;
 		};
+		C9DC6FFAED57E11744ABFCD6C983C1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19115BD726F8BC2A891EDF1B97B31CF0 /* CountryPickerView.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
+				IBSC_MODULE = CountryPickerView;
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CountryPickerView_CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CD7D92E7668943115101CB5D4876093F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D733ECAA52ADD8DD20FED6C96721D1EF /* CountryPickerView.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
+				IBSC_MODULE = CountryPickerView;
+				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CountryPickerView_CountryPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		D27B903C02B6C0A86E29A87451CC0405 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 19115BD726F8BC2A891EDF1B97B31CF0 /* CountryPickerView.release.xcconfig */;
@@ -1080,23 +1095,6 @@
 			};
 			name = Release;
 		};
-		FFFC55D9E50868F06B5BE12F898DB605 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19115BD726F8BC2A891EDF1B97B31CF0 /* CountryPickerView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CountryPickerView";
-				IBSC_MODULE = CountryPickerView;
-				INFOPLIST_FILE = "Target Support Files/CountryPickerView/ResourceBundle-CountryPickerView_CountryPickerView-CountryPickerView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = CountryPickerView_CountryPickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1112,8 +1110,8 @@
 		42E85B62C565D10A076BF7BC1E8941D3 /* Build configuration list for PBXNativeTarget "CountryPickerView-CountryPickerView_CountryPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5CBC3475DA7D3B5A713F41F1A632EB94 /* Debug */,
-				FFFC55D9E50868F06B5BE12F898DB605 /* Release */,
+				CD7D92E7668943115101CB5D4876093F /* Debug */,
+				C9DC6FFAED57E11744ABFCD6C983C1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
